@@ -19,7 +19,7 @@ def main(params, nodes):
         createGroup(nodes, nodesPerGroup, nodeIndex, path)
         nodeIndex = nodeIndex + nodesPerGroup 
     
-    createClients(nodes, clients, nodeIndex + nodesPerGroup)
+    createClients(nodes, clients, nodeIndex)
 
     createZoneFile(nodes)
 
