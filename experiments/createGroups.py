@@ -10,12 +10,12 @@ def main(params, nodes):
     nodeIndex = 0
 
     for g in range(globalGroups):
-        path = './group-g'+str(g)
+        path = './experiment/group-g'+str(g)
         createGroup(nodes, nodesPerGroup, nodeIndex, path)
         nodeIndex = nodeIndex + nodesPerGroup
 
     for l in range(localGroups):
-        path = './group-'+str(l)
+        path = './experiment/group-'+str(l)
         createGroup(nodes, nodesPerGroup, nodeIndex, path)
         nodeIndex = nodeIndex + nodesPerGroup 
     
@@ -33,7 +33,7 @@ def createClients(nodes, clients, nodeIndex):
 
 def createZoneFile(nodes):
     NUMBER_VALID_OF_COLUMNS = 5
-    with open('./zones.txt', 'w') as f:
+    with open('./experiment/zones.txt', 'w') as f:
         for zone in nodes:
             if len(zone) == NUMBER_VALID_OF_COLUMNS:
                 f.write(str("\t".join(zone))+"\n")    
@@ -45,12 +45,12 @@ def createFolder(path):
     os.mkdir(path)
 
 def createGroup(nodes, nodesPerGroup, nodeIndex, path ):
-    INDEX_GROUP_DEFINITION = 8
+    GROUP_NAME_INDEX = 19
     createFolder(path)
 
-    shutil.copy("./system.config", path)
+    shutil.copy("./experiment/system.config", path)
     with open(path+'/hosts.config', 'w') as f:
-        groupName = path[8:]
+        groupName = path[GROUP_NAME_INDEX:]
         port = 10000
         f.write("#group "+str(groupName)+"\n")
         for i in range(nodesPerGroup):
@@ -60,7 +60,7 @@ def createGroup(nodes, nodesPerGroup, nodeIndex, path ):
             
             zone = list(nodes[pos])
             zone.append("server")
-            zone.append(path[INDEX_GROUP_DEFINITION:])
+            zone.append(path[GROUP_NAME_INDEX:])
             nodes[pos] = tuple(zone)
 
     

@@ -1,0 +1,35 @@
+all:
+  hosts:
+  children:
+    servers:
+      hosts:
+        apt179.apt.emulab.net:
+        apt181.apt.emulab.net:
+        apt188.apt.emulab.net:
+        apt190.apt.emulab.net:
+        apt185.apt.emulab.net:
+        apt184.apt.emulab.net:
+        apt180.apt.emulab.net:
+        apt175.apt.emulab.net:
+        apt167.apt.emulab.net:
+        apt182.apt.emulab.net:
+        apt189.apt.emulab.net:
+        apt186.apt.emulab.net:
+        apt178.apt.emulab.net:
+        apt187.apt.emulab.net:
+        apt183.apt.emulab.net:
+        apt176.apt.emulab.net:
+        apt169.apt.emulab.net:
+        apt174.apt.emulab.net:
+        apt170.apt.emulab.net:
+        apt192.apt.emulab.net:
+
+
+    clients:
+      hosts:
+        apt173.apt.emulab.net:
+
+
+  vars:
+    ansible_user: jeffSD
+    ansible_ssh_private_key_file: "~/.ssh/id_rsa"
