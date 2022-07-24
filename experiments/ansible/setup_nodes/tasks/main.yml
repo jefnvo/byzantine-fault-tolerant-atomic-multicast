@@ -4,11 +4,6 @@
       path: /users/jeffSD/byzcast
       state: absent
 
-  - name: kill proccess if exists
-    shell:
-      cmd: nohup ./kill-byzcast.sh &
-      chdir: /users/jeffSD/byzcast/experiments/experiment/
-      
   - name: clone ByzCast on all hosts
     git:
       repo: https://github.com/jefnvo/byzcast-tcc
@@ -33,5 +28,10 @@
     shell: 
       cmd: python3 /users/jeffSD/byzcast/experiments/main.py
       chdir: /users/jeffSD/byzcast/experiments/
+      
+  - name: kill proccess if exists
+    shell:
+      cmd: nohup ./kill-byzcast.sh &
+      chdir: /users/jeffSD/byzcast/experiments/experiment/
 
   
