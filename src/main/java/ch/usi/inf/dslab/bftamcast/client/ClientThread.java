@@ -71,6 +71,7 @@ public class ClientThread implements Runnable {
                 if (r.nextInt(100) >= globalPerc || numOfGroups == 1) {
                     req.setDestination(local);
                 } else {
+                    System.out.println("Sending a global message.");
                     req.setDestination(allDests[index]);
                     count[index]++;
                 }
