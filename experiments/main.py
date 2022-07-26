@@ -32,6 +32,7 @@ def main():
         params[key] = value
     
     checkErrors(params)
+    #fazer trim da chave e valor
 
     nodes = getNodeList(params['nodeList'])
 
