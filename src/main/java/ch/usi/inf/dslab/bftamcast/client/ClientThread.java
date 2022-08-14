@@ -64,7 +64,6 @@ public class ClientThread implements Runnable {
 
         int index = 0, rn = r.nextInt(100);
         while (rn > percentage[index]) index++;
-        System.out.println("Index="+index+"\nRandon="+rn);
         req.setValue(randomString(size).getBytes());
         while (elapsed / 1e9 < runTime) {
             try {
