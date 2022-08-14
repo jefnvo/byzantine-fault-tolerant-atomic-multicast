@@ -3,15 +3,31 @@ all:
   children:
     servers:
       hosts:
-        apt130.apt.emulab.net:
-        apt136.apt.emulab.net:
-        apt129.apt.emulab.net:
-        apt132.apt.emulab.net:
+        apt142.apt.emulab.net:
+        apt182.apt.emulab.net:
+        apt173.apt.emulab.net:
+        apt162.apt.emulab.net:
+        apt177.apt.emulab.net:
+        apt191.apt.emulab.net:
+        apt183.apt.emulab.net:
+        apt159.apt.emulab.net:
+        apt185.apt.emulab.net:
+        apt190.apt.emulab.net:
+        apt189.apt.emulab.net:
+        apt180.apt.emulab.net:
+        apt187.apt.emulab.net:
+        apt170.apt.emulab.net:
+        apt178.apt.emulab.net:
+        apt175.apt.emulab.net:
+        apt184.apt.emulab.net:
+        apt163.apt.emulab.net:
+        apt144.apt.emulab.net:
+        apt174.apt.emulab.net:
 
 
     clients:
       hosts:
-        apt131.apt.emulab.net:
+        apt145.apt.emulab.net:	
 
 
   vars:

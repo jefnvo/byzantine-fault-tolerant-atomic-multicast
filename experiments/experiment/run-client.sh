@@ -13,7 +13,7 @@ if [ "$IP" = "" ]; then
 fi
 
 if [ "$IP" = "" ]; then
-  echo "No IP found, exiting!"
+  echo "No IP found, exiting!" 1>&2
   exit 1
 fi
 
@@ -44,4 +44,4 @@ if [ "$G_ID" = "" ]; then
 fi
 
 echo "Running $QTY clients in group $G_ID..."
-java -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.client.Client -i $RANDOM -g $G_ID -gc $GLOBALGROUPS $LOCALGROUPS -c 100 -p 100 $@
+java -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.client.Client -i $RANDOM -g $G_ID -gc $GLOBALGROUPS $LOCALGROUPS -c 500 -p 100 $@
