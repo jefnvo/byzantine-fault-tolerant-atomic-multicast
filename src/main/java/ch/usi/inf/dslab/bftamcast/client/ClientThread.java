@@ -60,7 +60,7 @@ public class ClientThread implements Runnable {
         //int[] percentage = {40, 45, 50, 55, 60, 101}; // 80%
         //int[] percentage = {25, 37, 50, 63, 75, 101}; // 50 %
         //int[] percentage = {17, 34, 50, 67, 84, 101}; // no-locality uniform
-        int[] count = {0, 0, 0, 0, 0, 0};
+        int[] count = {0, 0,};
 
         int index = 0, rn = r.nextInt(100);
         while (rn > percentage[index]) index++;

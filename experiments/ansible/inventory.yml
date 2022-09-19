@@ -3,35 +3,33 @@ all:
   children:
     servers:
       hosts:
-        apt173.apt.emulab.net:
-        apt186.apt.emulab.net:
-        apt184.apt.emulab.net:
-        apt191.apt.emulab.net:
-        apt180.apt.emulab.net:
-        apt174.apt.emulab.net:
-        apt117.apt.emulab.net:
-        apt185.apt.emulab.net:
-        apt175.apt.emulab.net:
-        apt183.apt.emulab.net:
-        apt188.apt.emulab.net:
-        apt178.apt.emulab.net:
-        apt181.apt.emulab.net:
-        apt189.apt.emulab.net:
-        apt167.apt.emulab.net:
-        apt182.apt.emulab.net:
-        apt169.apt.emulab.net:
-        apt179.apt.emulab.net:
-        apt192.apt.emulab.net:
-        apt106.apt.emulab.net:
+        apt079.apt.emulab.net:
+        apt123.apt.emulab.net:
+        apt092.apt.emulab.net:
+        apt082.apt.emulab.net:
+        apt087.apt.emulab.net:
+        apt080.apt.emulab.net:
+        apt078.apt.emulab.net:
+        apt091.apt.emulab.net:
+        apt089.apt.emulab.net:
+        apt073.apt.emulab.net:
+        apt086.apt.emulab.net:
+        apt081.apt.emulab.net:
+        apt127.apt.emulab.net:
+        apt128.apt.emulab.net:
+        apt088.apt.emulab.net:
+        apt077.apt.emulab.net:
+        apt085.apt.emulab.net:
+        apt076.apt.emulab.net:
+        apt121.apt.emulab.net:
+        apt090.apt.emulab.net:
         
         
 
     clients:
       hosts:
-        apt190.apt.emulab.net:
-        apt176.apt.emulab.net:
-        apt187.apt.emulab.net:
-        apt170.apt.emulab.net:
+        apt084.apt.emulab.net:
+
 
 
   vars:
