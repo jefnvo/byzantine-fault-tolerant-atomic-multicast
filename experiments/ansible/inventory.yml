@@ -37,10 +37,10 @@ all:
 
     clients:
       hosts:
+        apt176.apt.emulab.net:
         apt150.apt.emulab.net:
         apt188.apt.emulab.net:
         apt167.apt.emulab.net:
-
 
 
   vars:
