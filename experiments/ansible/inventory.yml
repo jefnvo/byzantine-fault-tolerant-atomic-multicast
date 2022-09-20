@@ -23,6 +23,7 @@ all:
         apt159.apt.emulab.net:
         apt179.apt.emulab.net:
         apt085.apt.emulab.net:
+
         
         # apt149.apt.emulab.net:
         # apt148.apt.emulab.net:
@@ -38,15 +39,13 @@ all:
         # apt142.apt.emulab.net:
         # apt177.apt.emulab.net:
         # apt170.apt.emulab.net:
-        
-        
 
     clients:
       hosts:
         apt181.apt.emulab.net:
-        apt138.apt.emulab.net:
-        apt092.apt.emulab.net:
-        apt180.apt.emulab.net:
+        # apt138.apt.emulab.net:
+        # apt092.apt.emulab.net:
+        # apt180.apt.emulab.net:
 
 
   vars:
