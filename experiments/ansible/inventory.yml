@@ -23,16 +23,16 @@ all:
         apt159.apt.emulab.net:
         apt179.apt.emulab.net:
         apt085.apt.emulab.net:
-
+        apt181.apt.emulab.net:
+        apt138.apt.emulab.net:
+        apt092.apt.emulab.net:
+        apt180.apt.emulab.net:
+        apt149.apt.emulab.net:
+        apt148.apt.emulab.net:
+        apt084.apt.emulab.net:
+        apt075.apt.emulab.net:
         
-        # apt149.apt.emulab.net:
-        # apt148.apt.emulab.net:
-        # apt084.apt.emulab.net:
-        # apt075.apt.emulab.net:
-        # apt164.apt.emulab.net:
-        # apt091.apt.emulab.net:
-        # apt176.apt.emulab.net:
-        # apt139.apt.emulab.net:
+        
         # apt150.apt.emulab.net:
         # apt161.apt.emulab.net:
         # apt169.apt.emulab.net:
@@ -42,10 +42,11 @@ all:
 
     clients:
       hosts:
-        apt181.apt.emulab.net:
-        # apt138.apt.emulab.net:
-        # apt092.apt.emulab.net:
-        # apt180.apt.emulab.net:
+        apt164.apt.emulab.net:
+        # apt091.apt.emulab.net:
+        # apt176.apt.emulab.net:
+        # apt139.apt.emulab.net:
+        
 
 
   vars:
