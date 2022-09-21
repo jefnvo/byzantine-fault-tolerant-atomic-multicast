@@ -19,7 +19,11 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>com.github.paulo-coelho</groupId>
+            <artifactId>library</artifactId>
+            <version>v1.1.1-beta</version>
+        </dependency>
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
