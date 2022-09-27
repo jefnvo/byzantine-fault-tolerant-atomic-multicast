@@ -48,9 +48,6 @@ public class Proxy implements ProxyIf {
     @Override
     public byte[] atomicMulticast(RequestIf req) {
         int[] dest = req.getDestination();
-        System.out.println("Destination of the current message is: "+dest+"\n" +
-                "Destination length is: "+dest.length+"\n"+
-                "is three levels? "+threeLevels);
 
         if (ng || (dest.length > 1 && !threeLevels) || dest.length > 2){
             return globalClients[0].invokeOrdered(req.toBytes());
@@ -59,13 +56,9 @@ public class Proxy implements ProxyIf {
         if (dest.length == 1)
             return localClients[dest[0]].invokeOrdered(req.toBytes());
 
-        System.out.println("Dest at index 0="+dest[0]+"\n" +
-                "Dest at index 1="+dest[1]+"\n" +
-                "Calc dest[0]/2 + 1) == dest[1]/2 + 1 is="+((dest[0]/2 + 1) == dest[1]/2 + 1));
         if((dest[0]/2 + 1) == dest[1]/2 + 1)
             return globalClients[dest[0]/2+1].invokeOrdered(req.toBytes());
 
-        System.out.println("Nao entrou em nenhum IF");
         return globalClients[0].invokeOrdered(req.toBytes());
     }
 }

@@ -55,7 +55,7 @@ public class ClientThread implements Runnable {
             all[i] = i;
         */
         //int[][] allDests = {{0, 1}, {1, 2}};
-        int[][] allDests = {{0, 1}, {0, 1}, {0, 1}, {0, 1}, {0, 1}, {0, 1}};
+        int[][] allDests = {{0, 1}, {0, 2}, {0, 3}, {1, 2}, {1, 3}, {2, 3}};
         //int[] percentage = {50, 101}; // 100% skewed
         //int[] percentage = {50, 50, 50, 50, 50, 101}; // 100% skewed
         //int[] percentage = {46, 48, 50, 52, 54, 101}; // 90%
