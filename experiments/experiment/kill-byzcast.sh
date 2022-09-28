@@ -20,7 +20,7 @@ fi
 
 if [[ -n $client ]]; then
     echo 'killing client pid=$client'
-    kill -9 $server
+    kill -9 $client
 else
     echo "client is dead"
 fi
