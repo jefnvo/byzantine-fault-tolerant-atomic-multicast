@@ -36,6 +36,9 @@ all:
     clients:
       hosts:
         apt131.apt.emulab.net:
+        apt156.apt.emulab.net:
+        apt144.apt.emulab.net:
+        apt150.apt.emulab.net:
 
         
 
