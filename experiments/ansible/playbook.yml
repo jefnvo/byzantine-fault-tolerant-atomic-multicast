@@ -7,7 +7,7 @@
   hosts: servers
   roles:
     - run_servers
-- name: Run byzcast client on clients nodes
-  hosts: clients
-  roles:
-    - run_clients
+# - name: Run byzcast client on clients nodes
+#   hosts: clients
+#   roles:
+#     - run_clients
