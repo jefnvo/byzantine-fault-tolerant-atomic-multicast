@@ -18,6 +18,11 @@
       owner: jeffSD
       mode: u=rwx,g=rwx,o=r
 
+  - name: kill proccess if exists
+    shell:
+      cmd: nohup ./kill-byzcast.sh &
+      chdir: /users/jeffSD/byzcast/experiments/experiment/
+      
   - name: Build protocol
     shell: 
       cmd: mvn clean install
@@ -28,10 +33,5 @@
     shell: 
       cmd: python3 /users/jeffSD/byzcast/experiments/main.py
       chdir: /users/jeffSD/byzcast/experiments/
-      
-  - name: kill proccess if exists
-    shell:
-      cmd: nohup ./kill-byzcast.sh &
-      chdir: /users/jeffSD/byzcast/experiments/experiment/
 
   
