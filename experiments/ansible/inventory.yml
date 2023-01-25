@@ -3,34 +3,45 @@ all:
   children:
     servers:
       hosts:
-        # apt179.apt.emulab.net:
-        # apt164.apt.emulab.net:
-        # apt187.apt.emulab.net:
-        # apt176.apt.emulab.net:
-        # apt183.apt.emulab.net:
-        # apt142.apt.emulab.net:
-        # apt140.apt.emulab.net:
-        # apt138.apt.emulab.net:
-        # apt137.apt.emulab.net:
-        # apt181.apt.emulab.net:
-        # apt156.apt.emulab.net:
-        # apt182.apt.emulab.net:
-        # apt146.apt.emulab.net:
-        # apt190.apt.emulab.net:
-        # apt180.apt.emulab.net:
-        # apt192.apt.emulab.net:
-        # apt158.apt.emulab.net:
-        # apt185.apt.emulab.net:
-        # apt161.apt.emulab.net:
-        # apt191.apt.emulab.net:
+        hp123.utah.cloudlab.us:
+        hp008.utah.cloudlab.us:
+        hp040.utah.cloudlab.us:
+        hp113.utah.cloudlab.us:
+        hp117.utah.cloudlab.us:
+        hp134.utah.cloudlab.us:
+        hp159.utah.cloudlab.us:
+        hp032.utah.cloudlab.us:
+        hp122.utah.cloudlab.us:
+        hp012.utah.cloudlab.us:
+        hp142.utah.cloudlab.us:
+        hp148.utah.cloudlab.us:
+        hp004.utah.cloudlab.us:
+        hp020.utah.cloudlab.us:
+        hp143.utah.cloudlab.us:
+        hp110.utah.cloudlab.us:
+        hp136.utah.cloudlab.us:
+        hp007.utah.cloudlab.us:
+        hp015.utah.cloudlab.us:
+        hp155.utah.cloudlab.us:
+        hp132.utah.cloudlab.us:
+        hp114.utah.cloudlab.us:
+        hp009.utah.cloudlab.us:
+        hp006.utah.cloudlab.us:
+        hp014.utah.cloudlab.us:
+        hp033.utah.cloudlab.us:
+        hp102.utah.cloudlab.us:
+        hp018.utah.cloudlab.us:
+        
         
     
     clients:
       hosts:
-        apt178.apt.emulab.net:
-        apt175.apt.emulab.net:
-        apt139.apt.emulab.net:
-        apt159.apt.emulab.net:
+        hp138.utah.cloudlab.us:
+        hp011.utah.cloudlab.us:
+        hp039.utah.cloudlab.us:
+        hp144.utah.cloudlab.us:
+        hp035.utah.cloudlab.us:
+        hp017.utah.cloudlab.us:
 
 
 
