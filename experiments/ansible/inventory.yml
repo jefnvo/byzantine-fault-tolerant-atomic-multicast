@@ -38,8 +38,8 @@ all:
       hosts:
         hp138.utah.cloudlab.us:
         hp011.utah.cloudlab.us:
-        hp039.utah.cloudlab.us:
-        hp144.utah.cloudlab.us:
+        # hp039.utah.cloudlab.us:
+        # hp144.utah.cloudlab.us:
         # hp035.utah.cloudlab.us:
         # hp017.utah.cloudlab.us:
 
