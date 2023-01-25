@@ -13,6 +13,10 @@ if [ "$IP" = "" ]; then
 fi
 
 if [ "$IP" = "" ]; then
+  IP=`ifconfig ens1f1 | grep "inet " | awk  '{print $2}'| awk '{print $1}'`
+fi
+
+if [ "$IP" = "" ]; then
   echo "No IP found, exiting!" 1>&2
   exit 1
 fi
