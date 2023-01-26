@@ -48,4 +48,4 @@ if [ "$G_ID" = "" ]; then
 fi
 
 echo "Running $QTY clients in group $G_ID..."
-java -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.client.Client -i $RANDOM -g $G_ID -gc $GLOBALGROUPS $LOCALGROUPS -c 600 -p 100 $@
+java -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.client.Client -i $RANDOM -g $G_ID -gc $GLOBALGROUPS $LOCALGROUPS -c 500 -p 100 $@
