@@ -3,45 +3,47 @@ all:
   children:
     servers:
       hosts:
-        # hp123.utah.cloudlab.us:
-        # hp008.utah.cloudlab.us:
-        # hp040.utah.cloudlab.us:
-        # hp113.utah.cloudlab.us:
-        # hp117.utah.cloudlab.us:
-        # hp134.utah.cloudlab.us:
-        # hp159.utah.cloudlab.us:
-        # hp032.utah.cloudlab.us:
-        # hp122.utah.cloudlab.us:
-        # hp012.utah.cloudlab.us:
-        # hp142.utah.cloudlab.us:
-        # hp148.utah.cloudlab.us:
-        # hp004.utah.cloudlab.us:
-        # hp020.utah.cloudlab.us:
-        # hp143.utah.cloudlab.us:
-        # hp110.utah.cloudlab.us:
-        # hp136.utah.cloudlab.us:
-        # hp007.utah.cloudlab.us:
-        # hp015.utah.cloudlab.us:
-        # hp155.utah.cloudlab.us:
-        # hp132.utah.cloudlab.us:
-        # hp114.utah.cloudlab.us:
-        # hp009.utah.cloudlab.us:
-        # hp006.utah.cloudlab.us:
-        # hp014.utah.cloudlab.us:
-        # hp033.utah.cloudlab.us:
-        # hp102.utah.cloudlab.us:
-        # hp018.utah.cloudlab.us:
+        hp151.utah.cloudlab.us:
+        hp122.utah.cloudlab.us:
+        hp143.utah.cloudlab.us:
+        hp161.utah.cloudlab.us:
+        hp132.utah.cloudlab.us:
+        hp188.utah.cloudlab.us:
+        hp130.utah.cloudlab.us:
+        hp012.utah.cloudlab.us:
+        hp144.utah.cloudlab.us:
+        hp069.utah.cloudlab.us:
+        hp150.utah.cloudlab.us:
+        hp133.utah.cloudlab.us:
+        hp074.utah.cloudlab.us:
+        hp172.utah.cloudlab.us:
+        hp142.utah.cloudlab.us:
+        hp127.utah.cloudlab.us:
+        hp184.utah.cloudlab.us:
+        hp164.utah.cloudlab.us:
+        hp123.utah.cloudlab.us:
+        hp073.utah.cloudlab.us:
+        hp006.utah.cloudlab.us:
+        hp153.utah.cloudlab.us:
+        hp156.utah.cloudlab.us:
+        hp056.utah.cloudlab.us:
+        hp134.utah.cloudlab.us:
+        hp160.utah.cloudlab.us:
+        hp136.utah.cloudlab.us:
+        hp121.utah.cloudlab.us:
         
         
     
     clients:
       hosts:
-        hp138.utah.cloudlab.us:
-        hp011.utah.cloudlab.us:
-        hp039.utah.cloudlab.us:
-        hp144.utah.cloudlab.us:
-        hp035.utah.cloudlab.us:
-        hp017.utah.cloudlab.us:
+        hp191.utah.cloudlab.us:
+        hp159.utah.cloudlab.us:
+        hp185.utah.cloudlab.us:
+        hp148.utah.cloudlab.us:
+        hp169.utah.cloudlab.us:
+        hp137.utah.cloudlab.us:
+        hp152.utah.cloudlab.us:
+        hp168.utah.cloudlab.us:
 
 
 
