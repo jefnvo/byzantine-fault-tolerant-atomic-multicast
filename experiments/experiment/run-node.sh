@@ -46,5 +46,5 @@ if [ "${G_ID:0:1}" = "g" ]; then
     java -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.server.BatchServerGlobal -i $N_ID -g ${G_ID:1:1} -gc $GLOBALGROUPS -lcs $LOCALGROUPS
 else
     echo "LOCAL SERVER"
-    java -Xmx5G -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.server.Server -i $N_ID -g $G_ID -lc group-$G_ID 
+    java -Xmx20G -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.server.Server -i $N_ID -g $G_ID -lc group-$G_ID 
 fi
