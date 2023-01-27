@@ -43,8 +43,8 @@ echo "LG=$LOCALGROUPS / GG=$GLOBALGROUPS $G_ID"
 if [ "${G_ID:0:1}" = "g" ]; then 
     echo "GLOBAL SERVER"
     echo "java -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.server.BatchServerGlobal -i $N_ID -g ${G_ID:1:1} -gc $GLOBALGROUPS -lcs $LOCALGROUPS"
-    java -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.server.BatchServerGlobal -i $N_ID -g ${G_ID:1:1} -gc $GLOBALGROUPS -lcs $LOCALGROUPS
+    java -Xmx32G -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.server.BatchServerGlobal -i $N_ID -g ${G_ID:1:1} -gc $GLOBALGROUPS -lcs $LOCALGROUPS
 else
     echo "LOCAL SERVER"
-    java -Xmx32G -Xms4G -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.server.Server -i $N_ID -g $G_ID -lc group-$G_ID 
+    java -Xmx32G -cp '../../target/*:../../lib/*' ch.usi.inf.dslab.bftamcast.server.Server -i $N_ID -g $G_ID -lc group-$G_ID 
 fi
