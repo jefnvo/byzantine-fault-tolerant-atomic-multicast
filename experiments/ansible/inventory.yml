@@ -3,38 +3,38 @@ all:
   children:
     servers:
       hosts:
-        hp149.utah.cloudlab.us:
-        hp157.utah.cloudlab.us:
-        hp196.utah.cloudlab.us:
-        hp126.utah.cloudlab.us:
-        hp017.utah.cloudlab.us:
-        hp154.utah.cloudlab.us:
-        hp131.utah.cloudlab.us:
-        hp169.utah.cloudlab.us:
-        hp037.utah.cloudlab.us:
         hp189.utah.cloudlab.us:
+        hp154.utah.cloudlab.us:
+        hp196.utah.cloudlab.us:
         hp021.utah.cloudlab.us:
-        hp195.utah.cloudlab.us:
-        hp123.utah.cloudlab.us:
-        hp125.utah.cloudlab.us:
-        hp006.utah.cloudlab.us:
-        hp182.utah.cloudlab.us:
+        hp186.utah.cloudlab.us:
         hp026.utah.cloudlab.us:
         hp012.utah.cloudlab.us:
-        hp014.utah.cloudlab.us:
-        hp147.utah.cloudlab.us:
-        hp179.utah.cloudlab.us:
-        hp016.utah.cloudlab.us:
-        hp011.utah.cloudlab.us:
+        hp125.utah.cloudlab.us:
         hp032.utah.cloudlab.us:
-        hp141.utah.cloudlab.us:
-        hp158.utah.cloudlab.us:
+        hp006.utah.cloudlab.us:
+        hp123.utah.cloudlab.us:
+        hp037.utah.cloudlab.us:
+        hp126.utah.cloudlab.us:
+        hp157.utah.cloudlab.us:
         hp178.utah.cloudlab.us:
-        hp139.utah.cloudlab.us:
+        hp017.utah.cloudlab.us:
+        hp182.utah.cloudlab.us:
+        hp141.utah.cloudlab.us:
+        hp169.utah.cloudlab.us:
+        hp147.utah.cloudlab.us:
+        hp131.utah.cloudlab.us:
+        hp179.utah.cloudlab.us:
+        hp023.utah.cloudlab.us:
+        hp195.utah.cloudlab.us:
+        hp011.utah.cloudlab.us:
+        hp014.utah.cloudlab.us:
+        hp149.utah.cloudlab.us:
+        hp016.utah.cloudlab.us:
 
     clients:
       hosts:
-        hp023.utah.cloudlab.us:
+        hp139.utah.cloudlab.us: 	
 
   vars:
     ansible_user: jeffSD

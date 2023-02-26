@@ -1,4 +1,12 @@
 ---
+  - name: set sysctl
+    become: yes
+    sysctl:
+      name: vm.max_map_count
+      value: '131072'
+      state: present
+      sysctl_set: true
+      
   - name: execute client nodes
     shell: 
       cmd: nohup ./run-client.sh &
