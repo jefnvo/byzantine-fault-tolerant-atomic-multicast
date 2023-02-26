@@ -1,4 +1,11 @@
 ---     
+  - name: set sysctl
+    become: yes
+    sysctl:
+      name: vm.max_map_count
+      value: '131072'
+      state: present
+      sysctl_set: true
   - name: clean all hosts before clone
     file:
       path: /users/jeffSD/byzcast
